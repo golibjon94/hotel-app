@@ -5,7 +5,7 @@ import Room from '../../assets/images/img_1.jpg'
 function About() {
   return (
     <div>
-            <section class="about" id="about">
+        <section class="about" id="about">
       <div class="title reveal">
         <div class="section-title">Abous Us</div>
       </div>
@@ -24,7 +24,7 @@ function About() {
           <p class="paragraph-text">
           Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
           </p>
-          <a href="#" class="btn">SEE MORE</a>
+          <a href="#" class="btn">LEARN MORE</a>
         </div>
 
       </div>

@@ -15,7 +15,7 @@ function Main() {
           <h3>The Best Dishes</h3>
           <h3>Excellent Hotel Service</h3>
         </div>
-        <a href="#" class="btn">See My Work</a>
+        <a href="#" class="btn">See More</a>
       
       </div>
     </section>
