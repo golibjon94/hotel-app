@@ -13,7 +13,7 @@ function Main() {
         <div class="animated-text">
           <h3>A Best Place To Stay</h3>
           <h3>The Best Dishes</h3>
-          <h3>Excellent Рotel Service</h3>
+          <h3>Excellent Hotel Service</h3>
         </div>
         <a href="#" class="btn">See My Work</a>
       
