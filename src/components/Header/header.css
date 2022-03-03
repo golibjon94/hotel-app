@@ -1,0 +1,40 @@
+header{
+    position: fixed;
+    background: rgba(255, 255, 255, .1);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;   
+}
+ header.sticky{
+     background: crimson;
+     padding: 10px 100px;
+ }   
+
+header .brand{
+    color: crimson;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .navigation{
+    position: relative;   
+}
+
+header .navigation a {
+    color: crimson;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;    
+    transition: .5s ease; 
+}
+header .navigation a:hover{
+    color: yellow;
+}
