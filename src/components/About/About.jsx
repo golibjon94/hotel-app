@@ -5,26 +5,26 @@ import Room from '../../assets/images/img_1.jpg'
 function About() {
   return (
     <div>
-        <section class="about" id="about">
-      <div class="title reveal">
-        <div class="section-title">Abous Us</div>
+        <section className="about" id="about">
+      <div className="title reveal">
+        <div className="section-title">Abous Us</div>
       </div>
-      <div class="content">
-        <div class="column col-left reveal">
-          <div class="img-card">
+      <div className="content">
+        <div className="column col-left reveal">
+          <div className="img-card">
             <img src={Room} />
           </div>
         </div>
-        <div class="column col-right reveal">
-          <h2 class="content-title">Welcome!</h2>
-          <p class="paragraph-text">
+        <div className="column col-right reveal">
+          <h2 className="content-title">Welcome!</h2>
+          <p className="paragraph-text">
           Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
           </p>
           <br />
-          <p class="paragraph-text">
+          <p className="paragraph-text">
           Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
           </p>
-          <a href="#" class="btn">LEARN MORE</a>
+          <a href="#" className="btn">LEARN MORE</a>
         </div>
 
       </div>

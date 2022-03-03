@@ -4,14 +4,12 @@ function Main() {
   return (
     <div>
     <header>
-        <a href="#" class="brand">Amazing Hotel</a>
-        <div class="menu-btn"></div>
-        <div class="navigation">
+        <a href="#" className="brand">Amazing Hotel</a>
+        <div className="menu-btn"></div>
+        <div className="navigation">
             <a href="#main">Home</a>
             <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#services">Services</a>
-            <a href="#work">Work</a>
+            <a href="#work">Rooms</a>
             <a href="#contact">Contact</a>
         </div>
     </header>
