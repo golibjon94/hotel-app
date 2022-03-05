@@ -4,9 +4,10 @@ import './contact.css'
 function Contact() {
   return (
     <div>
-      <section className="contact" id="contact">
-      <div className="title reveal">
-        <div className="section-title">Contact Me</div>
+
+    <section className="contact" id="contact">
+      <div className="title-reveal">
+        <h1>Bizga aloqaga chiqing</h1>
       </div>
       <div className="content">
         <div className="row">
@@ -47,27 +48,10 @@ function Contact() {
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="contact-form reveal">
-            <h3>Send Message</h3>
-            <div className="input-box">
-              <input type="text" placeholder="Name" />
-            </div>
-            <div className="input-box">
-              <input type="text" placeholder="Email"/>
-            </div>
-            <div className="input-box">
-              <textarea rows="8" cols="80" placeholder="Message"></textarea>
-            </div>
-            <div className="input-box">
-              <input type="submit" className="send-btn" value="Send"/>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
-    </div>
-  )
+  </div>
+  );
 }
 
 export default Contact

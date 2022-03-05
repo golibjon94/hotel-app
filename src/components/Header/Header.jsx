@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {useState} from 'react'
+import { Link } from 'react-router-dom'
 import './header.css';
 function Main() {
   const [scrolled, setScrolled] = useState(false);
@@ -14,14 +15,13 @@ function Main() {
     <div>
       <header className={scrolled && "scrolled_nav"}>
       <Link to="/" className="brand">
-     
         Amazing Hotel
       </Link>
       <div className="menu-btn"></div>
       <div className="navigation">
       <Link to="/">Home</Link>
-        <a href="#room">Rooms</a>
-        <a href="#contact">Contact</a>
+        <Link to="/room">Rooms</Link>
+        <Link to="/contact">Contact</Link>
         <Link to="/reserved">Reserved</Link>
       </div>
     </header>

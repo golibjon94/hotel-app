@@ -11,6 +11,10 @@ header{
     z-index: 999;   
     transition: 0.5s linear;
 }
+.scrolled_nav{
+    background:rgb(221, 220, 220)
+
+}
 .scrolled_nav .brand{
     color: white;
 
