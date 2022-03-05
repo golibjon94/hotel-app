@@ -1,24 +1,22 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from './components/Header/Header'
-import Main from './components/Main/Main';
-import About from './components/About/About';
-import Rooms from './components/Rooms/Rooms';
-import Contact from './components/Contacts/Contact';
-import Maps from './components/Maps/Maps';
-import Footer from './components/Footer/Footer';
+import Homepage from './pages/homepage';
+import Reserved from './pages/Reserved/reserved';
+import RoomDetails from './pages/RoomDetails/roomDetails';
 import './App.css';
 
 function App() {
-  return (
+  return (  
     <div className="App">
-      <Header />
-      <Main />
-      <About />
-      <Rooms />
-      <Contact />
-      <Maps />
-      <Footer />
-     
-    </div>
+    <BrowserRouter>
+    <Header/>
+    <Routes>
+      <Route path="/" element={<Homepage/>}/>
+      <Route path="/reserved" element={<Reserved/>}/>
+      <Route path="/roomDetails/:id" element={<RoomDetails/>}/>
+    </Routes>
+    </BrowserRouter> 
+  </div>
   );
 }
 

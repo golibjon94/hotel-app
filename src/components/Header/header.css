@@ -1,6 +1,6 @@
 header{
     position: fixed;
-    background: rgba(255, 255, 255, .1);
+    background: transparent;
     top: 0;
     left: 0;
     width: 100%;
@@ -9,9 +9,17 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 999;   
+    transition: 0.5s linear;
+}
+.scrolled_nav .brand{
+    color: white;
+
+}
+.scrolled_nav .brand a{
+    color: white;
 }
  header.sticky{
-     background: crimson;
+     background: rgb(109, 107, 107);
      padding: 10px 100px;
  }   
 
