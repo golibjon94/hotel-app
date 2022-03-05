@@ -12,14 +12,15 @@ header{
     transition: 0.5s linear;
 }
 .scrolled_nav{
-    background:rgb(221, 220, 220)
+    background:#000016;
+    font-size: 20px;
 
 }
 .scrolled_nav .brand{
     color: white;
 
 }
-.scrolled_nav .brand a{
+.scrolled_nav .brand-link{
     color: white;
 }
  header.sticky{

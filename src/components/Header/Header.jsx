@@ -14,15 +14,15 @@ function Main() {
   return (
     <div>
       <header className={scrolled && "scrolled_nav"}>
-      <Link to="/" className="brand">
+      <Link  to="/" className="brand">
         Amazing Hotel
       </Link>
       <div className="menu-btn"></div>
       <div className="navigation">
-      <Link to="/">Home</Link>
-        <Link to="/room">Rooms</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/reserved">Reserved</Link>
+      <Link className="brand-link" to="/">Home</Link>
+        <Link className="brand-link" to="/room">Rooms</Link>
+        <Link className="brand-link" to="/contact">Contact</Link>
+        <Link className="brand-link" to="/reserved">Reserved</Link>
       </div>
     </header>
     </div>
