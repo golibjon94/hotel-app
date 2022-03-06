@@ -5,7 +5,10 @@
     flex-direction: column;
     margin-top: 20px;
 }
-
+.contact .title-reveal h1{
+  text-align: center;
+  font-size: 30px;
+}
 .contact .content .row {
     display: flex;
     justify-content: center;
