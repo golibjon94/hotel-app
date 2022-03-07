@@ -1,6 +1,18 @@
 .room_details {
     margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+ 
 }
 .room_details img{
-    height: 200px;
+    height: 400px;
+    
+}
+.room_details_p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+.room_details h2 {
+    color: crimson;
 }

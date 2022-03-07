@@ -1,69 +1,31 @@
 import React from "react";
 import "./rooms.css";
-import Slider1 from "../../assets/images/slider-1.jpg";
-import Slider2 from "../../assets/images/slider-2.jpg";
-import Slider3 from "../../assets/images/slider-3.jpg";
-import Slider4 from "../../assets/images/slider-4.jpg";
-import Slider5 from "../../assets/images/slider-5.jpg";
-import Slider6 from "../../assets/images/slider-6.jpg";
+import {roomsData} from "../../Datas/roomsData"
+import {useNavigate} from 'react-router-dom';
 
 function Rooms() {
+  const navigate=useNavigate()
+  const getDetailPage=(e,id)=>{
+    e.preventDefault();
+    navigate(`/roomDetails/${id}`)
+  }
   return (
     <div>
-      <section className="work" id="work">
-        <div className="title reveal">
-          <div className="section-title">Rooms & Suites</div>
+      <section className="room" id="room">
+          <div className="section-title">
+            <h1>Rooms & Suites</h1>
         </div>
+        <div className="rooms_list">
+         {roomsData.map(room=>(
         <div className="content">
-          <div className="card reveal">
             <div className="card-img">
-              <img src={Slider1} alt="" />
+              <img onClick={(e,id)=>getDetailPage(e,room.id)} src={room.image} alt={room.id} />
             </div>
-            <p className="single-rooms">Single Rooms</p>
-            <p className="single-rooms-price">$100 / PER NIGHT</p>
+            <p className="single-rooms">{room.category}</p>
+            <p className="single-rooms-price">${room.price} / 1 kunga</p>
           </div>
-
-          <div className="card reveal">
-            <div className="card-img">
-              <img src={Slider2} alt="" />
-            </div>
-            <p className="single-rooms">Single Rooms</p>
-            <p className="single-rooms-price">$100 / PER NIGHT</p>
-          </div>
-          <div className="card reveal">
-            <div className="card-img">
-              <img src={Slider3} alt="" />
-            </div>
-            <p className="single-rooms">Single Rooms</p>
-            <p className="single-rooms-price">$100 / PER NIGHT</p>
-          </div>
-          <div className="card reveal">
-            <div className="card-img">
-              <img src={Slider4} alt="" />
-            </div>
-            <p className="single-rooms">Single Rooms</p>
-            <p className="single-rooms-price">$100 / PER NIGHT</p>
-          </div>
-          <div className="card reveal">
-            <div className="card-img">
-              <img src={Slider5} alt="" />
-            </div>
-            <p className="single-rooms">Single Rooms</p>
-            <p className="single-rooms-price">$100 / PER NIGHT</p>
-          </div>
-          <div className="card reveal">
-            <div className="card-img">
-              <img src={Slider6} alt="" />
-            </div>
-            <p className="single-rooms">Single Rooms</p>
-            <p className="single-rooms-price">$100 / PER NIGHT</p>
-          </div>
-          <div className="title reveal">
-            <a href="#" className="btn">
-              See All
-            </a>
-          </div>
-        </div>
+         ))}
+         </div>
       </section>
     </div>
   );
