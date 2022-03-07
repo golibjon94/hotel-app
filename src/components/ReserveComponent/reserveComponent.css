@@ -1,0 +1,19 @@
+.reserve_container{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(211, 211, 216);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.reserve_container button{
+    height: 50px;
+   width: 140px;
+    padding:0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: royalblue;
+    color: white;
+}

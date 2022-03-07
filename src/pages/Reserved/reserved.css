@@ -1,0 +1,30 @@
+.reserved_rooms{
+    margin-top: 100px;
+    padding: 20px 80px;
+}
+.reserved_rooms h2{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    color: white;
+margin-top: 10px;   
+margin-bottom: 40px; 
+}
+.reserved_rooms h3{
+    font-size: 22px;
+    color: blue;
+}
+.reserved_rooms .about_room{
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-gap: 20px;
+    margin-bottom: 20px;
+}
+.reserved_rooms .about_room img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.reserved_rooms .about_room p{
+    font-size: 20px;
+}
