@@ -23,10 +23,10 @@ function Main() {
       </Link>
       <div className="menu-btn"></div>
       <div className="navigation">
-      <Link className="brand-link" to="/">Home</Link>
-        <a className="brand-link" href="#room">Rooms</a>
-        <a className="brand-link" href="#contact">Contact</a>
-        <Link className="brand-link" to="/reserved">Reserved<span>({reservedRooms.length})</span></Link>
+      <Link className="brand-link" to="/">Bosh sahifa</Link>
+        <a className="brand-link" href="#room">Xonalar</a>
+        <a className="brand-link" href="#footer">Kontactlar</a>
+        <Link className="brand-link" to="/reserved">Tanlangan<span>({reservedRooms.length})</span></Link>
       </div>
     </header>
     </div>

@@ -50,7 +50,7 @@ function ReserveComponent({ chosenRoom }) {
       <Stack component="form" noValidate spacing={3}>
         <TextField
           id="date"
-          label="Check in"
+          label="Kunni tanlang"
           type="date"
           value={checkInDate}
           onChange={e=>setCheckInDate(e.target.value)}
@@ -63,7 +63,7 @@ function ReserveComponent({ chosenRoom }) {
       <Stack component="form" noValidate spacing={3}>
         <TextField
           id="date"
-          label="Check out"
+          label="Kunni tanlang"
           type="date"
           value={checkOutDate}
           onChange={e=>setCheckOutDate(e.target.value)}
@@ -73,7 +73,7 @@ function ReserveComponent({ chosenRoom }) {
           }}
         />
       </Stack>
-      <p>Jami: {reservedDays>0 && allSum>0 && `${reservedDays} kunga ${allSum}$`}</p>
+      <p>Jami summa:<span className="allsumma"><br/> {reservedDays>0 && allSum>0 && `${reservedDays} kunga ${allSum}$`}</span> </p>
       <button onClick={reserveBtn}>Band qilish</button>
     </div>
   );

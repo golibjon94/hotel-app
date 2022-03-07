@@ -13,7 +13,7 @@ function Rooms() {
     <div>
       <section className="room" id="room">
           <div className="section-title">
-            <h1>Rooms & Suites</h1>
+            <h1>Xonalar & Suitlar</h1>
         </div>
         <div className="rooms_list">
          {roomsData.map(room=>(

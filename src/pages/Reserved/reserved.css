@@ -4,7 +4,7 @@
 }
 .reserved_rooms h2{
     text-align: center;
-    color: blue;
+   
     font-size: 30px;
     color: white;
 margin-top: 10px;   
@@ -12,7 +12,7 @@ margin-bottom: 40px;
 }
 .reserved_rooms h3{
     font-size: 22px;
-    color: blue;
+    color: crimson;
 }
 .reserved_rooms .about_room{
     display: grid;
@@ -27,4 +27,12 @@ margin-bottom: 40px;
 }
 .reserved_rooms .about_room p{
     font-size: 20px;
+}
+.room_infos  {
+    font-size: 22px;
+    color: crimson;
+    font-weight: bold;
+}
+ p {
+   font-weight: bold;
 }

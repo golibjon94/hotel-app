@@ -14,9 +14,9 @@ export default function RoomDetails() {
       </div>
       <div className="about_room">
         <div className="room_desc">
-        <p className="room-type">Xona turi: {chosenRoom.category}</p>
-          <p>Xonalar haqida ma'lumot: {chosenRoom.description}</p>
-          <p>Narxi: {chosenRoom.price}$</p>
+        <h2 className="room-type">Xona turi: {chosenRoom.category}.</h2>
+          <p><span className="room-type">Xonalar haqida ma'lumot:</span> {chosenRoom.description}.</p>
+          <h2 className="room-type">Narxi: {chosenRoom.price}$.</h2>
         </div>
         <ReserveComponent chosenRoom={chosenRoom} />
       </div>

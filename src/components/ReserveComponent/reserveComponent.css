@@ -17,3 +17,11 @@
     background-color: royalblue;
     color: white;
 }
+.allsumma {
+    color: crimson;
+}
+.reserve_container p {
+   font-size: 19px;
+   font-weight: bold;
+   color: crimson;
+}

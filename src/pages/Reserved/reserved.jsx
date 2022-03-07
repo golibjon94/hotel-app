@@ -15,12 +15,12 @@ export default function Reserved() {
         reservedRooms.map((room,index) => (
           <div key={index} className="about_room">
             <img src={room.image} alt={room.id} />
-            <div>
-              <p>Category:{room.category}</p>
-              <p>Xona haqida:{room.description}</p>
-              <p>Xona narxi: {room.price}$ </p>
-              <p>Band qilindi:  {room.reservedDays} kunga </p>
-              <p>Jami Narxi:{room.totalPrice}$</p>
+            <div className="rom_info">
+              <p><span className="room_infos">Categoriyasi: </span>{room.category}</p>
+              <p><span className="room_infos">Xona haqida: </span> {room.description}</p>
+              <p><span className="room_infos">Xona narxi: </span> {room.price}$ </p>
+              <p><span className="room_infos">Band qilindi: </span>  {room.reservedDays} kunga </p>
+              <p><span className="room_infos">Jami narxi: </span> {room.totalPrice}$</p>
             </div>
           </div>
         ))
