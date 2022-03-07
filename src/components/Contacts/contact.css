@@ -29,15 +29,6 @@
     border-radius: 10px;
 }
 
-.contact .card .contact-icon {
-    color: crimson;
-    font-size: 60px;
-    text-align: center;
-    transition: transform .5s ease;
-}
-.contact .card:hover .contact-icon { 
-  transform: translateY(-10px);
-}
 
 .contact .card .info h3 {
     color: #111;

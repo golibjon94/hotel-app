@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.css";
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 function Contact() {
   return (
@@ -34,13 +35,13 @@ function Contact() {
                 <i className="fas fa-envelope"></i>
               </div>
               <div className="info">
-                <h3>Email Address</h3>
-                <span>golib94@gmail.com</span>
+              <h3>Facebook</h3>
+                <a href=""><FacebookIcon style={{fontSize:"30px"}}/></a>
               </div>
             </div>
             <div className="card reveal">
               <div className="contact-icon">
-                <i className="fas fa-globe"></i>
+               
               </div>
               <div className="info">
                 <h3>Website</h3>

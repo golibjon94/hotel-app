@@ -14,7 +14,7 @@ export default function RoomDetails() {
       </div>
       <div className="about_room">
         <div className="room_desc">
-        <p>Xona turi: {chosenRoom.category}</p>
+        <p className="room-type">Xona turi: {chosenRoom.category}</p>
           <p>Xonalar haqida ma'lumot: {chosenRoom.description}</p>
           <p>Narxi: {chosenRoom.price}$</p>
         </div>

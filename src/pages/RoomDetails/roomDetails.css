@@ -13,6 +13,10 @@
     object-fit: cover;
     
 }
+.room-type {
+    font-size: 25px;
+    color: orange;
+}
 .about_room {
     display: flex;
     flex-direction: column;
