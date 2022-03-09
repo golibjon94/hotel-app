@@ -15,7 +15,7 @@ function App() {
         <BrowserRouter>
           <Header />
           <Routes>
-            <Route path="/" element={<Homepage />} />
+            <Route path="/hotel-app" element={<Homepage />} />
             <Route path="/reserved" element={<Reserved />} />
             <Route path="/roomDetails/:id" element={<RoomDetails />} />
           </Routes>

@@ -18,12 +18,12 @@ function Main() {
   return (
     <div>
       <header className={scrolled ? "scrolled_nav":""}>
-      <Link  to="/" className="brand">
+      <Link  to="/hotel-app" className="brand">
         Amazing Hotel
       </Link>
       <div className="menu-btn"></div>
       <div className="navigation">
-      <Link className="brand-link" to="/">Bosh sahifa</Link>
+      <Link className="brand-link" to="/hotel-app">Bosh sahifa</Link>
         <a className="brand-link" href="#room">Xonalar</a>
         <a className="brand-link" href="#footer">Kontactlar</a>
         <Link className="brand-link" to="/reserved">Tanlangan<span>({reservedRooms.length})</span></Link>
